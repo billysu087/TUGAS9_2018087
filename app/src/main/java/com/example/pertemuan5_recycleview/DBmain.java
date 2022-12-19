@@ -6,7 +6,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 import androidx.annotation.Nullable;
 
 public class DBmain extends SQLiteOpenHelper {
-    public static final String DBNAME="Zalora.db";
+    public static final String DBNAME="Elektronik.db";
     public static final String TABLENAME="Jenis";
     public static final int VER=1;
     public DBmain(@Nullable Context context) {
